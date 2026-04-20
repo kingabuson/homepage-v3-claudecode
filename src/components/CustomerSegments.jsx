@@ -84,15 +84,10 @@ const CustomerSegments = () => {
         <section style={styles.section}>
             <div className="container" style={styles.container}>
                 <div style={styles.header}>
-                    <span style={styles.eyebrow}>For every deal team</span>
                     <h2 style={styles.heading}>
                         Built for the entire <br />
                         <span className="text-gradient-testimonial">Private Market Ecosystem</span>
                     </h2>
-                    <p style={styles.subheading}>
-                        From early-stage venture scouts to global M&A advisors, Tracxn powers the workflows of
-                        every team that operates in private markets.
-                    </p>
                 </div>
 
                 <div style={styles.grid}>

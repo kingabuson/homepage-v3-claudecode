@@ -52,16 +52,6 @@ const HeroV3 = () => {
             </div>
             <div className="container" style={styles.container}>
                 <div style={styles.topSection}>
-                    <motion.div
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6 }}
-                        style={styles.eyebrow}
-                    >
-                        <span style={styles.eyebrowDot} />
-                        The Private Market Intelligence Platform
-                    </motion.div>
-
                     <div style={styles.headerContent}>
                         <h1 style={styles.headline}>
                             Find, analyze, and win <br />
@@ -77,9 +67,8 @@ const HeroV3 = () => {
                             transition={{ duration: 0.8, delay: 0.2 }}
                             style={styles.subhead}
                         >
-                            AI-powered sourcing, human-verified data, and deep coverage of companies, funding,
-                            financials, cap tables, and regulatory filings — across 3,000+ sectors, trusted by the
-                            world's leading investors, banks, and policy-makers.
+                            Scale your sourcing with AI-driven insights and expert-vetted data, unified in a
+                            single platform for investors, banks, and policy-makers.
                         </motion.p>
                     </div>
 
@@ -91,7 +80,7 @@ const HeroV3 = () => {
                     </div>
 
                     <div style={styles.logosSection}>
-                        <p style={styles.trustedBy}>Trusted by 4,000+ teams worldwide</p>
+                        <p style={styles.trustedBy}>Trusted by 1,000+ teams worldwide</p>
                         <div style={styles.logoGrid}>
                             {logoRows.map((row, rowIdx) => (
                                 <div key={rowIdx} style={styles.logoRow}>

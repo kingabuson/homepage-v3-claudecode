@@ -84,14 +84,10 @@ const Features = () => {
         <section id="features" style={styles.section}>
             <div className="container" style={styles.container}>
                 <div style={styles.heroRow}>
-                    <span style={styles.eyebrow}>Our Offering</span>
                     <h2 style={styles.heading}>
                         Identify, analyze, and track <br />
                         the world's private markets.
                     </h2>
-                    <p style={styles.subheading}>
-                        Four pillars. One platform. Coverage, Sectors, Regulatory Filings, and Workflow Solutions — all working together so your team can act faster than the market moves.
-                    </p>
                 </div>
 
                 <div style={styles.contentWrapper}>
